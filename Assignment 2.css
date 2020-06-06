@@ -1,0 +1,97 @@
+img{
+ margin: 0px 120px;
+    
+}
+h1{
+    color:#9271FF ;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    text-align: center;
+}
+.Form{
+    margin-left: 10px;
+    background-color: #9271FF;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    border:2px solid #000000;
+    border-radius: 2px;
+    padding: 10px;
+    justify-content: space-between;
+}
+th{
+    text-align: left;
+}
+.three  {
+    text-align: center;
+}
+.one a{   
+    text-align: center;  
+    font-size: 20px; 
+    text-decoration: none;
+    color: #000000;
+}
+.one a:hover{
+background-color: green;
+color: white;
+}
+.two{   
+    text-align: center;   
+    font-size: 20px;
+}
+.two:hover{
+    background-color: rgb(250, 1, 1);
+    color: white;
+    }
+
+.four{
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.five th{
+    text-align: center;
+}
+.seven{
+    line-height: 40px;
+}
+.Nine{
+    text-align: right;
+    margin-bottom: 0;
+}
+.ten a{
+    float: left;
+    background-color: #9271FF;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 35px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+@media (max-width:736px){
+    img{
+      width: 200px;
+      margin: 30px ;
+      align-items: center;
+    
+    } 
+    .ten a{
+        font-size: 20px;
+    }
+    .Form{
+        width: max-content;
+        flex-direction: column;
+        font-size: 12px;
+        height: max-content;
+    }
+    .four{
+        flex-wrap: wrap;
+    }
+    .three{
+        font-size: 35px;
+    }
+    .Nine{
+        font-size: 12px;
+    }
+}

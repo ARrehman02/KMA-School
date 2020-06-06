@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:wght@500&family=Lobster&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header img{
+    width: 1024px;
+    margin-top: 40px;
+}
+nav{
+    width: 1024px;
+    font-size: 14px;
+   display: flex;   
+    background: royalblue;   
+    padding: 20px;
+    font-family: 'Anton', sans-serif;
+    position: fixed;
+    z-index: 2;
+}
+a{
+    text-decoration: none;
+    color: white; 
+}
+a:hover{
+    color: greenyellow;
+}
+.nav_links_1 ul li{
+    display: inline-block;
+    padding-left: 10px;   
+}
+
+.nav_links_2{
+  margin-left: 140px;
+}
+
+.nav_links_2 ul li{
+    display: inline-block; 
+    padding-left:10px ;      
+}
+.Main img{
+    width: 100%;
+    margin-top: 30px;
+}
+.closed{
+    text-align: center;
+    margin-top: 200px;
+}
+footer{
+    background: royalblue;
+    width: 100%;
+    height: 80px;
+    margin-top: 200px;
+    
+}
+footer p{
+    color: white;
+    padding: 30px;
+}
+footer p span:hover {
+    color: yellowgreen;
+    cursor: pointer;
+}
+.gotopbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: #263238;
+    color: white;
+    bottom: 10px;
+    border-radius: 30px;
+    right: 40px;
+    text-align: center;
+    padding: 10px;
+    font-size: 22px;
+    opacity: .5;
+    z-index: 1;
+}
+.gotopbtn:hover{
+    opacity: .9;
+    color: #76FF03;
+    
+}
+@media (max-width:414px){
+    nav{
+        display: inline-block;
+        width: 100% ;
+        position: absolute ;
+    }
+    nav a{
+        background: #0D47A1;
+        padding: 10px;
+        line-height: 45px;
+    }
+    nav a:hover {
+        background: #FFD600;
+        color: rgb(51, 46, 46); ;
+    }
+    .nav_links_2{
+        margin-left: 0px;
+      }
+      header img{
+          width: 100%;
+          margin-top: 180px;
+      }
+      .gotopbtn{
+          right: 10px;
+      }
+      footer{
+          height: 100px;
+          width: 100%;
+      }   
+}
